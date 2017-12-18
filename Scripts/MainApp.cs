@@ -404,22 +404,16 @@ public class MainApp : MonoBehaviour, IMessageHandler
             }
         }
     }
-
-    private void NoWinner(float cnt)
-    {
-        if (cnt >= 7)
-        {
-            foreach (GameObject go in cells)
-            {
-                go.GetComponent<Collider>().enabled = false;
-            }
-
-            restartBtn.SetActive(true);
-        }
-    }
-
+    
+    /// <summary>
+    /// verifies which player is waiting. 
+    /// since the message is broadcasted to all devices, verify if waitingPlayer value is the same as the device's
+    /// </summary>
+    /// <param name="waitingPlayer"></param>
     void VerifyCurrentPlayer(string waitingPlayer)
     {
+        //if device is the waiting device, then verify it device is player A or B
+        //then disable colliders to enhibit interactions
         if (waitingPlayer == collaborationManager.clientId)
         {
             //Debug.Log("IF VERIFY CURRENT PLAYER");
@@ -445,7 +439,7 @@ public class MainApp : MonoBehaviour, IMessageHandler
         }
         else
         {
-
+            //if not waiting device then, enable colliders
             foreach (GameObject go in cells)
             {
                 go.GetComponent<Collider>().enabled = true;
