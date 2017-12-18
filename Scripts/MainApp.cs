@@ -177,9 +177,7 @@ public class MainApp : MonoBehaviour, IMessageHandler
                     WaitingPlayerMessage(playerA.id);
 
                 ClickCube(collaborationManager.clientId, focused.name, cellcounter);
-            }
-
-            
+            }            
         }
         catch (Exception e)
         { Debug.Log(e); }
@@ -187,6 +185,7 @@ public class MainApp : MonoBehaviour, IMessageHandler
 
     /// <summary>
     /// called when restart button is pressed
+    /// restart all 
     /// </summary>
     void Restart()
     {
@@ -213,7 +212,7 @@ public class MainApp : MonoBehaviour, IMessageHandler
     }
 
     /// <summary>
-    /// manages the color of the cube according to the player that clicks the cube
+    /// manages the color of the cell according to the player that clicks it
     /// </summary>
     /// <param name="ip"></param>
     private void ClickCube(string ip, string cellname, float cellcount)
