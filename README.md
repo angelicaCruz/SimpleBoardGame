@@ -24,3 +24,10 @@ To configure your project correctly, follow [**Configuration manual**](http://do
 Find **_scene_** and have as you main scene. In the project panel, find **MEHoloEntrance** then drag and drop it in the Heirarchy. It is important that you have this in your scene as this manages all the modules of the METool kit: Cursors, Inputs and Collaboration in this scenario. Follow [**Integration manual**](http://docs.datamesh.com/projects/me-live/en/latest/toolkit/toolkit-man-integrated-METoolkit/ "Integration Manual") for a correct integration of the tool kit.  
 
 ### Build
+- [**For HoloLens**](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/DiveDeeper/build-hololens-app.md "HoloLens build")
+
+- [**For PC**](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/DiveDeeper/build-pc-app.md#build-pc-app "PC build")
+
+- [**For Surface**](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/DiveDeeper/build-surface-app.md "Surface build")
+
+
