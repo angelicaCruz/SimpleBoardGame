@@ -25,7 +25,7 @@ Find **_scene_** and have as you main scene. In the project panel, find **MEHolo
 ### Build
 - [**For HoloLens**](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/DiveDeeper/build-hololens-app.md "HoloLens build")
 
-- [**For PC**](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/DiveDeeper/build-pc-app.md#build-pc-app "PC build"). Use the setting in this build and run the app in Unity, connect your Spectator view and run the application.
+- [**For PC**](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/DiveDeeper/build-pc-app.md#build-pc-app "PC build"). Use the setting in this build , connect your Spectator view and run the application.
 
 - [**For Surface**](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/DiveDeeper/build-surface-app.md "Surface build")
 
