@@ -21,4 +21,6 @@ Get started by integrating **METool kit** with your Unity project. This can be d
 
 To configure your project correctly, follow [**Configuration manual**](http://docs.datamesh.com/projects/me-live/en/latest/toolkit/toolkit-man-configure-your-project/ "Project Config"). 
 
-Follow [**Integration manual**](http://docs.datamesh.com/projects/me-live/en/latest/toolkit/toolkit-man-integrated-METoolkit/ "Integration Manual"). 
+Find **_scene_** and have as you main scene. In the project panel, find **MEHoloEntrance** then drag and drop it in the Heirarchy. It is important that you have this in your scene as this manages all the modules of the METool kit: Cursors, Inputs and Collaboration in this scenario. Follow [**Integration manual**](http://docs.datamesh.com/projects/me-live/en/latest/toolkit/toolkit-man-integrated-METoolkit/ "Integration Manual") for a correct integration of the tool kit.  
+
+### Build
