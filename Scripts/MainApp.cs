@@ -96,7 +96,9 @@ public class MainApp : MonoBehaviour, IMessageHandler
         collaborationManager.cbEnterRoom = cbEnterRoom;
         //cursor module
         cursor = UIManager.Instance.cursorController;
-
+        
+        //it is possible to use more than message.
+        //bear in mind that messages must have different id so 
         string showId = "showId001";
         MsgEntry msg = new MsgEntry();
         msg.ShowId = showId;
@@ -140,7 +142,7 @@ public class MainApp : MonoBehaviour, IMessageHandler
             playerB.player = "B";
             playerA.isTurn = false;
 
-            //security reasons.
+            //comment this block if you want to try the code
             try
             {
                 playerB.id = idList[1];
@@ -175,16 +177,6 @@ public class MainApp : MonoBehaviour, IMessageHandler
                     WaitingPlayerMessage(playerA.id);
 
                 ClickCube(collaborationManager.clientId, focused.name, cellcounter);
-
-                //if (playerA.isTurn)
-                //    playerA.isTurn = false;
-                //else
-                //    playerA.isTurn = true;
-
-                //if (playerB.isTurn)
-                //    playerB.isTurn = false;
-                //else
-                //    playerB.isTurn = true;
             }
 
             
