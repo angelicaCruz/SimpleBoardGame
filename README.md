@@ -41,9 +41,3 @@ Find **_scene_** and have as you main scene. In the project panel, find **MEHolo
 <img src="https://user-images.githubusercontent.com/26377727/34098368-054fdab4-e417-11e7-91da-83f548ae8b6b.png>
 <p align="center"><em>Spectator and HoloLens view</em></p>
 </p>
-
-
-
-https://user-images.githubusercontent.com/26377727/34098368-054fdab4-e417-11e7-91da-83f548ae8b6b.png
-
-
