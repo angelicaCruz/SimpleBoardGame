@@ -2,11 +2,9 @@
 This project is an example usage of METool kit. 
 
 **SCENARIO**
-Two devices share the same scene and interact with a common object: the **Grid**.
-
-Two devices stand for two players: Player A colors the blocks of the grid with blue while Player B uses color green to color the blocks. 
-At every turn, only one player can interact with the scene. You can change it if you want to. 
-
+- Two devices share the same scene and interact with a common object: the **Grid**.
+- Two devices stand for two players: Player A colors the blocks of the grid with blue while Player B uses color green to color the blocks. 
+- At every turn, only one player can interact with the scene. This is where Collaboration module plays a big role. Thanks to its actions, devices and workstation are able to exchanges messages and are synced with each other.
 **Note:**
 - Before getting started, download [**METookit**](https://github.com/DataMesh-OpenSource/METoolkit "METoolkit Source"). 
 - This project is created with the older version on METool kit, so make sure you're not using the METool kit 2017 version. 
@@ -31,3 +29,8 @@ Find **_scene_** and have as you main scene. In the project panel, find **MEHolo
 - [**For Surface**](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/DiveDeeper/build-surface-app.md "Surface build")
 
 
+### NOTES
+1. Make sure **MEConfigNetwork.ini** contains your own server ip. If you have MeshExpert Center, you can find it under **Service IP** in the Dash board. If not, you can use you **ipconfig** in you command line.
+2. Check **Console** in Unity and see the value of **Delay**. If it is equals to zero even after executing the note above, try turning off your Firewall. 
+3. Two players are needed to run the project project correctly.  If you don't have two HoloLens, use the Pc as one of the device players. Also, try to win as the project does not implement "no-winner" situation.(we'll try to have it)
+4. You can use this project with Spectator view. 
